@@ -1,0 +1,33 @@
+Role Name
+=========
+
+Install https://docs.gitlab.com/runner/[gitlab-runner]
+
+Requirements
+------------
+
+
+Role Variables
+--------------
+
+
+Dependencies
+------------
+
+
+Example Playbook
+----------------
+
+
+    - hosts: 
+      roles:
+         - install_gitlabrunner
+
+License
+-------
+
+GPLv3
+
+Author Information
+------------------
+jlozada2426@gmail.com
