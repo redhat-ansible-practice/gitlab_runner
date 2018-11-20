@@ -11,7 +11,9 @@ EPEL Installed and configure the base url depending on the OS
 Role Variables
 --------------
 Fedora link: https://packages.gitlab.com/runner/gitlab-runner/fedora/28/$basearch
+
 gpgkey: https://packages.gitlab.com/runner/gitlab-runner/gpgkey
+
 EL7 link: https://packages.gitlab.com/runner/gitlab-runner/el/7/$basearch
 ```
 runner_url: 
