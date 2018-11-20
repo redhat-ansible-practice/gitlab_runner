@@ -1,2 +1,9 @@
 ---
 # defaults file for install_gitlabrunner
+
+runner_url:
+runner_gpgkey: "https://packages.gitlab.com/runner/gitlab-runner/gpgkey"
+runner_rpms:
+  - pygpgme
+  - yum-utils
+  - gitlab-runner

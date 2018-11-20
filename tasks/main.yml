@@ -6,14 +6,14 @@
     yum_repository:
       name: gitlab-runner
       description: Install gitlab-runner
-      baseurl: https://packages.gitlab.com/runner/gitlab-runner/fedora/28/$basearch
-      gpgkey: https://packages.gitlab.com/runner/gitlab-runner/gpgkey
+      baseurl: "{{ runner_url }}"
+      gpgkey: "{{ runner_gpgkey }}"
       gpgcheck: yes
       sslcacert: /etc/pki/tls/certs/ca-bundle.crt
       sslverify: yes
 
   - name: Install gitlab-runner
-    dnf:
-      name: gitlab-runner
+    yum:
+      name: "{{ runner_rpms }}"
       state: installed
 

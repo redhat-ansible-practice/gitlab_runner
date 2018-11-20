@@ -6,11 +6,18 @@ Install https://docs.gitlab.com/runner/[gitlab-runner]
 Requirements
 ------------
 
+EPEL Installed and configure the base url depending on the OS
 
 Role Variables
 --------------
-
-
+Fedora link: https://packages.gitlab.com/runner/gitlab-runner/fedora/28/$basearch
+gpgkey: https://packages.gitlab.com/runner/gitlab-runner/gpgkey
+EL7 link: https://packages.gitlab.com/runner/gitlab-runner/el/7/$basearch
+```
+runner_url: 
+runner_gpgkey:
+runner_rpms:
+```
 Dependencies
 ------------
 
@@ -30,4 +37,4 @@ GPLv3
 
 Author Information
 ------------------
-jlozada2426@gmail.com
+jlozada2426@protonmail.com
