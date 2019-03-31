@@ -1,7 +1,7 @@
 ---
 # defaults file for install_gitlabrunner
 
-runner_url:
+runner_url: "https://packages.gitlab.com/runner/gitlab-runner/packages/el/7/gitlab-runner-11.9.0-1.x86_64.rpm"
 runner_gpgkey: "https://packages.gitlab.com/runner/gitlab-runner/gpgkey"
 runner_rpms:
   - pygpgme
